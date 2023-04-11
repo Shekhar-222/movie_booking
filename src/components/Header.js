@@ -71,17 +71,7 @@ const Header = () => {
                   </li>
                 </ul>
               </li>
-              <li>
-                <Link to="#0">blog</Link>
-                <ul className="submenu">
-                  <li>
-                    <Link to="blog">Blog</Link>
-                  </li>
-                  <li>
-                    <Link to="blog-details">Blog Single</Link>
-                  </li>
-                </ul>
-              </li>
+              
               <li>
                 <Link to="contact">contact</Link>
               </li>

@@ -6,14 +6,14 @@ import Footer from "../components/Footer";
 const Layout = () => {
   return (
     <>
-      <div className="preloader">
+      {/* <div className="preloader">
         <div className="preloader-inner">
           <div className="preloader-icon">
             <span />
             <span />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="overlay" />
       <a href="#0" className="scrollToTop">

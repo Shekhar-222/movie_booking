@@ -12,6 +12,10 @@ import SeatPlan from "./pages/SeatPlan";
 import CheckOut from "./pages/CheckOut";
 import MovieFood from "./pages/MovieFood";
 import MovieList from "./pages/MovieList";
+import MovieDetail_2 from "./pages/MovieDetailTwo";
+import About from "./pages/About";
+import Download from "./pages/Download";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -27,6 +31,10 @@ function App() {
             <Route path="/movie-checkout" element={<CheckOut />}></Route>
             <Route path="/popcorn" element={<MovieFood />}></Route>
             <Route path="/movie-list" element={<MovieList />}></Route>
+            <Route path="/movie-details-2" element={<MovieDetail_2 />}></Route>
+            <Route path="/about" element={<About />}></Route>
+            <Route path="/apps-download" element={<Download />}></Route>
+            <Route path="/contact" element={<Contact />}></Route>
           </Route>
           <Route path="/sign-in" element={<Signin/>}></Route>
           <Route path="/sign-up" element={<Signup/>}></Route>
